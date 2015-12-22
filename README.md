@@ -7,4 +7,4 @@ But what if there are hundreds of backlinks? Backlink-prioritizer finds the back
 
 Example usage: <code>python whatlinkedhere.py Joseph_Feildon</code> 
 
-It will create a file, <code>Joseph_Feildon(mlh).txt</code> having newline-separated two-dimensional arrays of backlink title and backlink's number of views, in decreasing order of the latter.
+It will create a file, <code>Joseph_Feildon_(wlh).txt</code> having newline-separated two-dimensional arrays of backlink title and backlink's number of views, in decreasing order of the latter.
