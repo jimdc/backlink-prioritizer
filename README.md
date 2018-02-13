@@ -5,6 +5,6 @@ Wikipedia lists all the backlinks to a particular article on its ''Special:WhatL
 
 But what if there are hundreds of backlinks? Backlink-prioritizer finds the backlinks which have the most views within the last 90 days, by feeding the output of Wikipedia's ''WhatLinksHere'' (from the official API) to Domas Mituzas's Wikipedia article traffic statistics website. Since this can take a long time, Backlink-prioritizer live-prints and saves its progress: in case you want to do a keyboard interrupt (Ctrl+C) if it's taking too long, or if your internet connection is faulty, or the traffic statistics website refuses your connection, etc.
 
-Example usage: <code>python whatlinkedhere.py Joseph_Feildon</code> 
+Example usage: <code>python3 backlink-prioritizer.py Joseph_Feilden</code> 
 
-It will create a file, <code>Joseph_Feildon_(wlh).txt</code> having newline-separated two-dimensional arrays of backlink title and backlink's number of views, in decreasing order of the latter.
+It will create a file, <code>Joseph_Feilden_(wlh).txt</code> having newline-separated two-dimensional arrays of backlink title and backlink's number of views, in decreasing order of the latter.
